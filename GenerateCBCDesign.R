@@ -22,3 +22,6 @@ write.csv(surveyValues, 'Designs/CMUGrocery0.csv')
 
 surveyValues <- makeSurvey(doe, nResp = numberOfRespondents, nQPerResp = numberOfQuestions, nAltsPerQ = numberOfAlts, outsideGood = outsideGood)
 write.csv(surveyValues, 'Designs/CMUGrocery1.csv')
+
+surveyValues <- makeSurvey(doe, nResp = numberOfRespondents, nQPerResp = numberOfQuestions, nAltsPerQ = numberOfAlts, outsideGood = outsideGood)
+write.csv(surveyValues, 'Designs/CMUGrocery2.csv')
